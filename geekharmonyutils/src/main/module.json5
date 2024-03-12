@@ -1,0 +1,112 @@
+{
+  "module": {
+    "name": "geekharmonyutils",
+    "type": "shared",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    //    "deliveryWithInstall": true,
+    //    "installationFree": false,
+    //    "pages": "$profile:main_pages",
+    //    "abilities": [
+    //      {
+    //        "name": "GeekharmonyutilsAbility",
+    //        "srcEntry": "./ets/geekharmonyutilsability/GeekharmonyutilsAbility.ts",
+    //        "description": "$string:GeekharmonyutilsAbility_desc",
+    //        "icon": "$media:icon",
+    //        "label": "$string:GeekharmonyutilsAbility_label",
+    //        "startWindowIcon": "$media:icon",
+    //        "startWindowBackground": "$color:start_window_background",
+    //        "exported": true
+    //      }
+    //    ]
+    "deliveryWithInstall": true,
+    "pages": "$profile:main_pages",
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+//    "abilities": [
+//      {
+//        "name": "LoginAb1",
+//        "srcEntry": "./ets/common/indexcomponents/ab/LoginAb1.ts",
+//        "description": "$string:login_page",
+//        "icon": "$media:icon",
+//        "label": "$string:login_more",
+//        "exported": true,
+//        "startWindowIcon": "$media:icon",
+//        "startWindowBackground": "$color:start_window_background",
+//        "skills": [
+//          {
+//            "entities": [
+//              "entity.system.browsable"
+//              // ...
+//            ],
+//            "actions": [
+//              "ohos.want.action.viewData"
+//              // ...
+//            ],
+//            "uris": [
+//              {
+//                "scheme": "https",
+//                "host": "www.test.com",
+//                "port": "8080",
+//                "pathStartWith": "query/indexcomponents/LoginAb1",
+//                "type": "text/plain"
+//              },
+//              {
+//                "scheme": "http",
+//                "host": "www.test.com",
+//                "port": "8080",
+//                "pathStartWith": "query/indexcomponents/LoginAb1",
+//                "type": "text/plain"
+//              }
+//              // ...
+//            ]
+//          }
+//        ]
+//      },
+//      {
+//        "name": "MainAb1",
+//        "srcEntry": "./ets/common/indexcomponents/ab/MainAb1.ts",
+//        "description": "$string:login_page",
+//        "icon": "$media:icon",
+//        "label": "$string:login_more",
+//        "exported": true,
+//        "startWindowIcon": "$media:icon",
+//        "startWindowBackground": "$color:start_window_background",
+//        "skills": [
+//          {
+//            "entities": [
+//              "entity.system.browsable"
+//              // ...
+//            ],
+//            "actions": [
+//              "ohos.want.action.viewData"
+//              // ...
+//            ],
+//            "uris": [
+//              {
+//                "scheme": "https",
+//                "host": "www.test.com",
+//                "port": "8080",
+//                "pathStartWith": "query/indexcomponents/MainAb1",
+//                "type": "text/plain"
+//              },
+//              {
+//                "scheme": "http",
+//                "host": "www.test.com",
+//                "port": "8080",
+//                "pathStartWith": "query/indexcomponents/MainAb1",
+//                "type": "text/plain"
+//              }
+//              // ...
+//            ]
+//          }
+//        ]
+//      }
+//    ]
+  }
+}

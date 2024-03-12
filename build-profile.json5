@@ -1,0 +1,125 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\liang\\.ohos\\config\\auto_debug_harmonyapp1_com.example.harmonyapp1_2850086000447057455.cer",
+          "storePassword": "0000001B6CC0A965C313E8431EA9B8F7134F695BC130DFA5F2D3EE9A5659029F668044C699AA93CDE810D4",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BAE094294FACF5E9083261F0A99A99127DDA96BC7A840B182574176C8C043D296EFDEC33F375CC5",
+          "profile": "C:\\Users\\liang\\.ohos\\config\\auto_debug_harmonyapp1_com.example.harmonyapp1_2850086000447057455.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\liang\\.ohos\\config\\auto_debug_harmonyapp1_com.example.harmonyapp1_2850086000447057455.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+  },
+  "modules": [
+    {
+      "name": "entry1",
+      "srcPath": "./product/entry1",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "geekharmonyutils",
+      "srcPath": "./geekharmonyutils",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phone1",
+      "srcPath": "./product/phone1",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "librarycommon1",
+      "srcPath": "./librarycommon1",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libraryindex1",
+      "srcPath": "./libraryindex1",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libraryindex2",
+      "srcPath": "./libraryindex2",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libraryindex3",
+      "srcPath": "./libraryindex3",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libraryindex4",
+      "srcPath": "./libraryindex4",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

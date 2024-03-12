@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "outer_button_load",
+      "value": "加载动画"
+    },
+    {
+      "name": "outer_button_end",
+      "value": "结束并回到第0帧"
+    },
+    {
+      "name": "outer_button_start",
+      "value": "播放"
+    },
+    {
+      "name": "outer_button_pause",
+      "value": "暂停"
+    }
+  ]
+}

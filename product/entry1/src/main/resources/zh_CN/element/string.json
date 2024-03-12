@@ -1,0 +1,43 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "生命周期"
+    },
+    {
+      "name": "hello_message",
+      "value": "你好世界"
+    },
+    {
+      "name": "EntryAbility1_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility1_label",
+      "value": "label"
+    },
+    {
+      "name": "back",
+      "value": "Back"
+    }, {
+      "name": "next",
+      "value": "Next"
+    },
+    {
+      "name": "hello_marquee",
+      "value": "跑马灯案例"
+    },
+    {
+      "name": "hello_indexfg",
+      "value": "首页案例"
+    }
+  ]
+}

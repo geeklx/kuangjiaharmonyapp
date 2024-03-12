@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LifeCyclePage",
+    "pages/APage",
+    "pages/BPage",
+    "pages/CPage",
+    "pages/DPage",
+    "pages/EPage"
+  ]
+}

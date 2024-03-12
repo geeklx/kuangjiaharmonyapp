@@ -1,0 +1,7 @@
+{
+  "src": [
+    "Index",
+    "common/indexcomponents/pages/LoginPage",
+    "common/indexcomponents/pages/MainPage"
+  ]
+}

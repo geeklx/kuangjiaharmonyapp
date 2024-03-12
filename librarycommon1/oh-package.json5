@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "librarycommon1",
+  "description": "Please describe the basic information.",
+  "main": "./src/main/ets/Index.ets",
+  "version": "1.0.0",
+  "dependencies": {
+    "@ohos/lottie": "2.0.0"
+  }
+}

@@ -1,0 +1,100 @@
+{
+    "document": {
+        "VisualVersion": "12",
+        "type": "ETS",
+        "custom": true,
+        "path": "/common/geekharmonyutils/src/main/supervisual/components/home/Home"
+    },
+    "visualModel": {
+        "dataType": "VisualModel",
+        "value": {
+            "propertyStorage": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "dynamicPropertyStorage": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "mediaPropertyStorage": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "dynamicMediaPropertyStorage": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "property": {
+                "dataType": "Map",
+                "value": {
+                    "width": "100%",
+                    "height": "100%"
+                }
+            },
+            "dynamicProperty": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "children": [
+                {
+                    "dataType": "VisualModel",
+                    "value": {
+                        "propertyStorage": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "dynamicPropertyStorage": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "mediaPropertyStorage": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "dynamicMediaPropertyStorage": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "property": {
+                            "dataType": "Map",
+                            "value": {
+                                "width": "180vp",
+                                "height": "80vp"
+                            }
+                        },
+                        "dynamicProperty": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "children": [],
+                        "id": "button1",
+                        "type": "button"
+                    }
+                }
+            ],
+            "id": "wrapper",
+            "type": "column"
+        }
+    },
+    "formData": {
+        "data": {
+            "dataType": "Map",
+            "value": {}
+        },
+        "actions": {
+            "dataType": "Map",
+            "value": {}
+        }
+    },
+    "imgData": "data:image/png;base64,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",
+    "customData": {
+        "property": {
+            "dataType": "Map",
+            "value": {}
+        },
+        "event": {
+            "dataType": "Map",
+            "value": {}
+        }
+    }
+}

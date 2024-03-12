@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "Phone1Ability_desc",
+      "value": "详细信息"
+    },
+    {
+      "name": "Phone1Ability_label",
+      "value": "G1鸿蒙框架"
+    },
+    {
+      "name": "index1",
+      "value": "首页"
+    },
+    {
+      "name": "index2",
+      "value": "分类1"
+    },
+    {
+      "name": "index3",
+      "value": "分类2"
+    },
+    {
+      "name": "index4",
+      "value": "我的"
+    }
+  ]
+}

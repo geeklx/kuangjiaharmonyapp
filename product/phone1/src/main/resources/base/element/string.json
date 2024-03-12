@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "Phone1Ability_desc",
+      "value": "description"
+    },
+    {
+      "name": "Phone1Ability_label",
+      "value": "label"
+    },
+    {
+      "name": "index1",
+      "value": "index1"
+    },
+    {
+      "name": "index2",
+      "value": "index2"
+    },
+    {
+      "name": "index3",
+      "value": "index3"
+    },
+    {
+      "name": "index4",
+      "value": "index4"
+    }
+  ]
+}

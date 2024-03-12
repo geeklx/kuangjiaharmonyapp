@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "libraryindex1",
+  "description": "Please describe the basic information.",
+  "main": "./src/main/ets/Index.ets",
+  "version": "1.0.0",
+  "dependencies": {
+    "librarycommon1": "file:./../librarycommon1"
+  }
+}

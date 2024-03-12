@@ -1,0 +1,37 @@
+{
+  "module": {
+    "name": "phone1",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "Phone1Ability",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "Phone1Ability",
+        "srcEntry": "./ets/phone1ability/Phone1Ability.ts",
+        "description": "$string:Phone1Ability_desc",
+        "icon": "$media:app_icon",
+        "label": "$string:Phone1Ability_label",
+        "startWindowIcon": "$media:app_icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

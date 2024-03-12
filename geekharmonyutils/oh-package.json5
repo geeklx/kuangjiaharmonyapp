@@ -1,0 +1,10 @@
+{
+  "license": "",
+  "devDependencies": {},
+  "author": "geek",
+  "name": "@ohos/geek_harmony_common_utils",
+  "description": "Please describe the basic information.",
+  "main": "./src/main/ets/Index.ets",
+  "version": "1.0.0",
+  "dependencies": {}
+}

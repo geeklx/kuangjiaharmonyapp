@@ -1,0 +1,77 @@
+{
+  "module": {
+    "name": "entry1",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        //        "launchType": "singleton",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LoginAb2",
+        //        "launchType": "singleton",
+        "srcEntry": "./ets/entryability/LoginAb2.ts",
+        "description": "$string:EntryAbility_desc",
+        "label": "$string:EntryAbility_label",
+        "exported": true,
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "skills": [
+          {
+            "entities": [
+              "entity.system.browsable"
+              // ...
+            ],
+            "actions": [
+              "ohos.want.action.viewData"
+              // ...
+            ],
+            "uris": [
+              {
+                "scheme": "https",
+                "host": "www.test.com",
+                "port": "8080",
+                "path": "query/indexcomponents/LoginAb2",
+                "type": "text/plain"
+              },
+              {
+                "scheme": "http",
+                "host": "www.test.com",
+                "port": "8080",
+                "path": "query/indexcomponents/LoginAb2",
+                "type": "text/plain"
+              }
+              // ...
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

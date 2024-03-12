@@ -1,0 +1,32 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "default_color",
+      "value": "#FE5756"
+    },
+    {
+      "name": "default_background",
+      "value": "#F8F8F8"
+    },
+    {
+      "name": "ohos_id_color_sub_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "ohos_id_color_emphasize",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "marquee_bg_color1",
+      "value": "#CCDFFF"
+    },
+    {
+      "name": "marquee_bg_color2",
+      "value": "#F3F4F7"
+    }
+  ]
+}

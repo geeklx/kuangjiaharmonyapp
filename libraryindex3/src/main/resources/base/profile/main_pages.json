@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/PageMarquee1",
+    "pages/PageWebView2",
+    "pages/PageZjIndex1",
+    "pages/PageLottie1"
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "GeekharmonyutilsAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "GeekharmonyutilsAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "ohos_id_text_size_headline",
+      "value": "20"
+    },
+    {
+      "name": "ohos_id_text_font_family_medium",
+      "value": "medium"
+    },
+    {
+      "name": "ohos_id_text_size_body1",
+      "value": "16"
+    },
+    {
+      "name": "ohos_id_text_size_body2",
+      "value": "14"
+    },
+    {
+      "name": "ohos_id_text_size_body3",
+      "value": "12"
+    },
+    {
+      "name": "ohos_id_text_size_caption",
+      "value": "10"
+    },
+    {
+      "name": "ohos_id_corner_radius_default_l",
+      "value": "16"
+    },
+    {
+      "name": "ohos_id_corner_radius_default_m",
+      "value": "12"
+    },
+    {
+      "name": "ohos_id_corner_radius_subtab",
+      "value": "4"
+    },
+    {
+      "name": "ohos_id_card_margin_start",
+      "value": "12"
+    },
+    {
+      "name": "ohos_id_card_padding_start",
+      "value": "12"
+    },
+    {
+      "name": "ohos_id_elements_margin_vertical_m",
+      "value": "8"
+    },
+    {
+      "name": "ohos_id_elements_margin_vertical_l",
+      "value": "16"
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+      "name": "hello_marquee",
+      "value": "跑马灯案例"
+    },
+    {
+      "name": "button_name",
+      "value": "jump"
+    },
+    {
+      "name": "EntryAbility1_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility1_label",
+      "value": "label"
+    },
+    {
+      "name": "next",
+      "value": "Next"
+    },
+    {
+      "name": "back",
+      "value": "Back"
+    },
+    {
+      "name": "page_show",
+      "value": "page from package"
+    },
+    {
+      "name": "my_trip",
+      "value": "我的行程"
+    },
+    {
+      "name": "plan_text",
+      "value": "计划出发"
+    },
+    {
+      "name": "ticket_entrance",
+      "value": "检票口:"
+    },
+    {
+      "name": "vehicle_model",
+      "value": "车型:"
+    },
+    {
+      "name": "marquee_title",
+      "value": "跑马灯案例"
+    },
+    {
+      "name": "marquee_content",
+      "value": "文本宽度过宽时，则实现跑马灯效果(文本循环滚动，每循环一次之后会停滞一段时间后再滚动)"
+    },
+    {
+      "name": "train_number_data_1",
+      "value": "K101"
+    },
+    {
+      "name": "whole_course_data_1",
+      "value": "全程2h8m/100km"
+    },
+    {
+      "name": "time_difference_data_1",
+      "value": "距出发 50m"
+    },
+    {
+      "name": "origin_data",
+      "value": "北京"
+    },
+    {
+      "name": "destination_data_1",
+      "value": "上海"
+    },
+    {
+      "name": "ticket_entrance_data_1",
+      "value": "候车地点:第七候车室"
+    },
+    {
+      "name": "vehicle_model_data_1",
+      "value": "普快"
+    },
+    {
+      "name": "whole_course_data_2",
+      "value": "全程2h8m/100km"
+    },
+    {
+      "name": "time_difference_data_2",
+      "value": "距出发 14h50m"
+    },
+    {
+      "name": "destination_data_2",
+      "value": "洛阳"
+    },
+    {
+      "name": "ticket_entrance_data_2",
+      "value": "检票口15A"
+    },
+    {
+      "name": "vehicle_model_data_2",
+      "value": "高铁"
+    },
+    {
+      "name": "scroll_width",
+      "value": "50%"
+    },
+
+
+
+
+
+
+    {
+      "name": "hello_indexfg",
+      "value": "首页案例"
+    },
+    {
+      "name": "login_page",
+      "value": "Login page"
+    },
+    {
+      "name": "login_more",
+      "value": "Log in to your account to use more services"
+    },
+    {
+      "name": "account",
+      "value": "Account"
+    },
+    {
+      "name": "password",
+      "value": "Password"
+    },
+    {
+      "name": "login",
+      "value": "Log in"
+    },
+    {
+      "name": "register_account",
+      "value": "Registering an Account"
+    },
+    {
+      "name": "forgot_password",
+      "value": "Forgot Password"
+    },
+    {
+      "name": "message_login",
+      "value": "SMS verification code login"
+    },
+    {
+      "name": "other_login_method",
+      "value": "Other login methods"
+    },
+    {
+      "name": "vertical_line",
+      "value": "  |  "
+    },
+    {
+      "name": "input_empty_tips",
+      "value": "The input cannot be empty."
+    },
+    {
+      "name": "login_success",
+      "value": "The login is successful."
+    },
+    {
+      "name": "my_love",
+      "value": "My favorite"
+    },
+    {
+      "name": "history_record",
+      "value": "History"
+    },
+    {
+      "name": "message",
+      "value": "Message"
+    },
+    {
+      "name": "shopping_cart",
+      "value": "Shopping cart"
+    },
+    {
+      "name": "my_goal",
+      "value": "My goal"
+    },
+    {
+      "name": "group",
+      "value": "Group"
+    },
+    {
+      "name": "favorites",
+      "value": "Favorites"
+    },
+    {
+      "name": "recycle_bin",
+      "value": "Recycle Bin"
+    },
+    {
+      "name": "rankings",
+      "value": "Rankings"
+    },
+    {
+      "name": "new_product_debut",
+      "value": "New product debut"
+    },
+    {
+      "name": "big_name_flash",
+      "value": "Big name flash"
+    },
+    {
+      "name": "find_good",
+      "value": "Find good things"
+    },
+    {
+      "name": "xiamen_station",
+      "value": "Xiamen Station, we'll see you."
+    },
+    {
+      "name": "more_big_names",
+      "value": "More Big Names"
+    },
+    {
+      "name": "push_notifications",
+      "value": "Push Notifications"
+    },
+    {
+      "name": "data_management",
+      "value": "Data Management"
+    },
+    {
+      "name": "menu_settings",
+      "value": "Menu Settings"
+    },
+    {
+      "name": "about",
+      "value": "About"
+    },
+    {
+      "name": "clear_cache",
+      "value": "Clear Cache"
+    },
+    {
+      "name": "mainPage_tabTitles_home",
+      "value": "Home"
+    },
+    {
+      "name": "mainPage_tabTitles_mine",
+      "value": "Mine"
+    },
+    {
+      "name": "mainPage_top",
+      "value": "Rankings"
+    },
+    {
+      "name": "mainPage_text_top",
+      "value": "Xiamen Station, we'll see you."
+    },
+    {
+      "name": "mainPage_new",
+      "value": "New product debut"
+    },
+    {
+      "name": "mainPage_text_new",
+      "value": "Xiamen Station, we'll see you."
+    },
+    {
+      "name": "mainPage_brand",
+      "value": "Big name flash"
+    },
+    {
+      "name": "mainPage_text_brand",
+      "value": "More Big Names"
+    },
+    {
+      "name": "mainPage_found",
+      "value": "Find good things"
+    },
+    {
+      "name": "mainPage_text_found",
+      "value": "Xiamen Station, we'll see you."
+    },
+    {
+      "name": "setting_account_name",
+      "value": "Mr. Lee"
+    },
+    {
+      "name": "setting_account_email",
+      "value": "2000000@shenhua.cc"
+    },
+    {
+      "name": "setting_list_news",
+      "value": "Push Notifications"
+    },
+    {
+      "name": "setting_list_data",
+      "value": "Data Management"
+    },
+    {
+      "name": "setting_list_menu",
+      "value": "Menu Settings"
+    },
+    {
+      "name": "setting_list_about",
+      "value": "Clear Cache"
+    },
+    {
+      "name": "setting_list_storage",
+      "value": "清除缓存"
+    },
+    {
+      "name": "setting_list_privacy",
+      "value": "Privacy Agreement"
+    },
+    {
+      "name": "setting_button",
+      "value": "Logout"
+    },
+    {
+      "name": "home_list",
+      "value": "List"
+    },
+    {
+      "name": "setting_toggle",
+      "value": "switch"
+    }
+
+
+
+
+
+
+
+
+
+
+
+  ]
+}
