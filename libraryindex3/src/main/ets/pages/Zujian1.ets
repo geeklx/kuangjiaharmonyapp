@@ -2,7 +2,7 @@ import { Constants } from 'librarycommon1/src/main/ets/constants/Constants';
 import router from '@ohos.router';
 import { logger } from 'librarycommon1';
 
-
+@Preview
 @Component
 export struct Zujian1 {
   @State message: string = 'Hello World';
@@ -11,53 +11,61 @@ export struct Zujian1 {
   build() {
     Scroll() {
       Column() {
-        Text('WebView')
-          .fontSize($r('app.float.small_font_size'))
-          .fontColor('#000000')
-          .margin(10)
-          .fontWeight(FontWeight.Bold)
-          .onClick(() => {
-            router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageWebView2", params: {
-              data1: 'https://www.jd.com/'
-            } })
-            logger.info('showData1:' + router.getParams()['data1']);
-          })
-        Blank()
-        Text('跑马灯')
-          .fontSize($r('app.float.small_font_size'))
-          .fontColor('#000000')
-          .margin(10)
-          .fontWeight(FontWeight.Bold)
-          .onClick(() => {
-            router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageMarquee1", params: {
-              data1: '上一页的数据'
-            } })
-            logger.info('showData1:' + router.getParams()['data1']);
-          })
-        Blank()
-        Text('首页组件')
-          .fontSize($r('app.float.small_font_size'))
-          .fontColor('#000000')
-          .margin(10)
-          .fontWeight(FontWeight.Bold)
-          .onClick(() => {
-            router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageZjIndex1", params: {
-              data1: '上一页的数据'
-            } })
-            logger.info('showData1:' + router.getParams()['data1']);
-          })
-        Blank()
-        Text('Lottie组件')
-          .fontSize($r('app.float.small_font_size'))
-          .fontColor('#000000')
-          .margin(10)
-          .fontWeight(FontWeight.Bold)
-          .onClick(() => {
-            router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageLottie1", params: {
-              data1: '上一页的数据'
-            } })
-            logger.info('showData1:' + router.getParams()['data1']);
-          })
+        Row() {
+          Column() {
+            Text('WebView')
+              .fontSize($r('app.float.small_font_size'))
+              .fontColor('#000000')
+              .margin(10)
+              .fontWeight(FontWeight.Bold)
+              .onClick(() => {
+                router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageWebView2", params: {
+                  data1: 'https://www.jd.com/'
+                } })
+                // logger.info('showData1:' + router.getParams()['data1']);
+              })
+            Blank()
+            Text('跑马灯')
+              .fontSize($r('app.float.small_font_size'))
+              .fontColor('#000000')
+              .margin(10)
+              .fontWeight(FontWeight.Bold)
+              .onClick(() => {
+                router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageMarquee1", params: {
+                  data1: '上一页的数据'
+                } })
+                // logger.info('showData1:' + router.getParams()['data1']);
+              })
+            Blank()
+            Text('首页组件')
+              .fontSize($r('app.float.small_font_size'))
+              .fontColor('#000000')
+              .margin(10)
+              .fontWeight(FontWeight.Bold)
+              .onClick(() => {
+                router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageZjIndex1", params: {
+                  data1: '上一页的数据'
+                } })
+                // logger.info('showData1:' + router.getParams()['data1']);
+              })
+            Blank()
+            Text('Lottie组件')
+              .fontSize($r('app.float.small_font_size'))
+              .fontColor('#000000')
+              .margin(10)
+              .fontWeight(FontWeight.Bold)
+              .onClick(() => {
+                router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageLottie1", params: {
+                  data1: '上一页的数据'
+                } })
+                // logger.info('showData1:' + router.getParams()['data1']);
+              })
+          }.width('50%').alignItems(HorizontalAlign.Start)
+
+          Column() {
+
+          }.width('50%').alignItems(HorizontalAlign.Start)
+        }.width('100%').alignItems(VerticalAlign.Top)
       }
     }
   }

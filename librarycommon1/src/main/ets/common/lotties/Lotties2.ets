@@ -52,9 +52,9 @@ export struct Lotties2 {
         Canvas(this.renderingContext)
           .width("100%")
           .height(200)
-          .aspectRatio(1.76)
-          .backgroundImage($r('app.media.canvasBg'))
-          .backgroundImageSize(ImageSize.Cover)
+          // .aspectRatio(1.76)
+          // .backgroundImage($r('app.media.canvasBg'))
+          // .backgroundImageSize(ImageSize.Cover)
           .onAppear(() => {
             // this.loadAnimation(true)
           })

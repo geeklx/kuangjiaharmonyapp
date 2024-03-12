@@ -34,6 +34,13 @@ const tabBarInfoList: TabBarInfoModel[] = [
     selectImg: $r('app.media.new_mine_tabbar_press_Normal'),
     whiteImg: $r('app.media.ic_search_White_online_Normal'),
     title: $r('app.string.index4')
+  },
+  {
+    index: 4,
+    normalImg: $r('app.media.new_mine_tabbar_Normal'),
+    selectImg: $r('app.media.new_mine_tabbar_press_Normal'),
+    whiteImg: $r('app.media.ic_search_White_online_Normal'),
+    title: $r('app.string.index5')
   }
 ]
 
