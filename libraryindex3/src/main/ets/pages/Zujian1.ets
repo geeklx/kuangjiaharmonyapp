@@ -24,7 +24,7 @@ export struct Zujian1 {
                 } })
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
-            Blank()
+            // Blank()
             Text('跑马灯')
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
@@ -36,7 +36,7 @@ export struct Zujian1 {
                 } })
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
-            Blank()
+            // Blank()
             Text('首页组件')
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
@@ -48,7 +48,7 @@ export struct Zujian1 {
                 } })
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
-            Blank()
+            // Blank()
             Text('Lottie组件')
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
@@ -60,12 +60,12 @@ export struct Zujian1 {
                 } })
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
-          }.width('50%').alignItems(HorizontalAlign.Start)
+          }.height('100%').width('50%').alignItems(HorizontalAlign.Start)
 
           Column() {
 
-          }.width('50%').alignItems(HorizontalAlign.Start)
-        }.width('100%').alignItems(VerticalAlign.Top)
+          }.height('100%').width('50%').alignItems(HorizontalAlign.Start)
+        }.height('100%').width('100%').alignItems(VerticalAlign.Top)
       }
     }
   }

@@ -25,30 +25,30 @@
     ],
   },
   "modules": [
-    {
-      "name": "entry1",
-      "srcPath": "./product/entry1",
-      "targets": [
-        {
-          "name": "default",
-          "applyToProducts": [
-            "default"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "geekharmonyutils",
-      "srcPath": "./geekharmonyutils",
-      "targets": [
-        {
-          "name": "default",
-          "applyToProducts": [
-            "default"
-          ]
-        }
-      ]
-    },
+//    {
+//      "name": "entry1",
+//      "srcPath": "./product/entry1",
+//      "targets": [
+//        {
+//          "name": "default",
+//          "applyToProducts": [
+//            "default"
+//          ]
+//        }
+//      ]
+//    },
+//    {
+//      "name": "geekharmonyutils",
+//      "srcPath": "./geekharmonyutils",
+//      "targets": [
+//        {
+//          "name": "default",
+//          "applyToProducts": [
+//            "default"
+//          ]
+//        }
+//      ]
+//    },
     {
       "name": "phone1",
       "srcPath": "./product/phone1",

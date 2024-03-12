@@ -1,4 +1,4 @@
-
+import { LoginPage } from 'librarycommon1'
 
 @Entry
 @Component
@@ -8,9 +8,7 @@ struct PageZjIndex1 {
   build() {
     Row() {
       Column() {
-        Text(this.message)
-          .fontSize(50)
-          .fontWeight(FontWeight.Bold)
+        LoginPage()
       }
       .width('100%')
     }

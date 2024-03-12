@@ -1,5 +1,7 @@
 import lottie, { AnimationItem } from '@ohos/lottie';
 import { logger } from 'librarycommon1';
+import util from '@ohos.util';
+import common from '@ohos.app.ability.common';
 
 
 @Entry
@@ -8,10 +10,23 @@ struct PageLottie1 {
   @State message: string = 'Hello World'
   private renderingSettings: RenderingContextSettings = new RenderingContextSettings(true);
   private renderingContext: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.renderingSettings);
-  private animateName: string = 'data';
+  private animateName: string = 'data3';
   private animateItem: AnimationItem | null = null;
   @State canvasTitle: Resource | undefined = undefined;
+  private path: string = "common/lotties/data.json"
+  private jsonData2: object | null = null;
 
+  async aboutToAppear() {
+    let resStr = new util.TextDecoder('utf-8', { ignoreBOM: true });
+    let context = getContext(this).createModuleContext('libraryindex3') as common.UIAbilityContext
+    context.resourceManager.getRawFile('data3.json', (err: Error, data: Uint8Array) => {
+      if (data === null || data === undefined || data.buffer === undefined) {
+        return;
+      }
+      let lottieStr = resStr.decode(new Uint8Array(data.buffer));
+      this.jsonData2 = JSON.parse(lottieStr);
+    })
+  }
 
   aboutToDisappear(): void {
     logger.info('PageLottie1', `aboutToDisappear`);
@@ -59,7 +74,7 @@ struct PageLottie1 {
       })
 
       // Buttons area
-      Column({ space:12 }) {
+      Column({ space: 12 }) {
         Button() {
           Text($r('app.string.outer_button_load'))
             .fontSize(16)
@@ -81,9 +96,11 @@ struct PageLottie1 {
             loop: 10,
             autoplay: true,
             name: this.animateName,
-            path: 'lottie/data.json'
+            animationData: this.jsonData2,
+            // path: this.path
           });
         })
+        // https://gitee.com/openharmony-tpc/lottieArkTS
 
         Button() {
           Text($r('app.string.outer_button_end'))
