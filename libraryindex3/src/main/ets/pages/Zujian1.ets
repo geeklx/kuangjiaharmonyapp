@@ -1,6 +1,6 @@
 import { Constants } from 'librarycommon1/src/main/ets/constants/Constants';
 import router from '@ohos.router';
-import { logger } from 'librarycommon1';
+import { logger, ResUtils } from 'librarycommon1';
 
 @Preview
 @Component
@@ -80,6 +80,7 @@ export struct Zujian1 {
             Text('音视频组件')
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
+              .backgroundImage(ResUtils.get_icon1())
               .margin(10)
               .fontWeight(FontWeight.Bold)
               .onClick(() => {
@@ -93,14 +94,9 @@ export struct Zujian1 {
               })
 
 
-
           }.height('100%').width('50%').alignItems(HorizontalAlign.Start)
 
           Column() {
-
-
-
-
 
 
           }.height('100%').width('50%').alignItems(HorizontalAlign.Start)

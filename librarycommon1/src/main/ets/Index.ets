@@ -1,4 +1,5 @@
 export { add } from "./utils/Calc"
+export { ResUtils } from "./common/ResUtils"
 
 export { logger } from './common/Logger';
 
