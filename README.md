@@ -77,3 +77,13 @@ https://gitee.com/openharmony-sig/CircleImageView
 https://gitee.com/openharmony-tpc/ImageKnife
 
 ###
+
+7.音视频基本组件：librarycommon1/src/main/ets/common/player/PagePlayerIndex.ets
+
+###
+
+https://gitee.com/openharmony/applications_app_samples/tree/master/code/Project/ApplicationHap/MultiHap
+
+###
+
+
