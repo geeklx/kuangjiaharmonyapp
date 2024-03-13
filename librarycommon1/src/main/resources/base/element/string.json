@@ -12,6 +12,54 @@
       "name": "EntryAbility_label",
       "value": "News Release"
     },
+
+
+
+    {
+      "name": "tip1",
+      "value": "WebView组件"
+    },
+    {
+      "name": "tip2",
+      "value": "跑马灯组件"
+    },
+    {
+      "name": "tip3",
+      "value": "首页组件"
+    },
+    {
+      "name": "tip4",
+      "value": "Lottie组件"
+    },
+    {
+      "name": "tip5",
+      "value": "大图预览组件"
+    },
+    {
+      "name": "tip6",
+      "value": "音视频组件"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "name": "pull_up_load_text",
       "value": "Loading in..."

@@ -13,7 +13,7 @@ export struct Zujian1 {
       Column() {
         Row() {
           Column() {
-            Text('WebView')
+            Text(ResUtils.get_string_1())
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
               .margin(10)
@@ -25,7 +25,7 @@ export struct Zujian1 {
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
             // Blank()
-            Text('跑马灯')
+            Text(ResUtils.get_string_2())
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
               .margin(10)
@@ -37,7 +37,7 @@ export struct Zujian1 {
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
             // Blank()
-            Text('首页组件')
+            Text(ResUtils.get_string_3())
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
               .margin(10)
@@ -52,7 +52,7 @@ export struct Zujian1 {
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
             // Blank()
-            Text('Lottie组件')
+            Text(ResUtils.get_string_4())
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
               .margin(10)
@@ -63,7 +63,7 @@ export struct Zujian1 {
                 } })
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
-            Text('大图预览组件')
+            Text(ResUtils.get_string_5())
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
               .margin(10)
@@ -77,7 +77,7 @@ export struct Zujian1 {
                 })
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
-            Text('音视频组件')
+            Text(ResUtils.get_string_6())
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
               .backgroundImage(ResUtils.get_icon1())
