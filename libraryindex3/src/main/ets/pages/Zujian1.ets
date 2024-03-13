@@ -43,9 +43,12 @@ export struct Zujian1 {
               .margin(10)
               .fontWeight(FontWeight.Bold)
               .onClick(() => {
-                router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageZjIndex1", params: {
-                  data1: '上一页的数据'
-                } })
+                router.pushUrl({
+                  url: "@bundle:com.example.harmonyapp1/librarycommon1/ets/common/indexcomponents/pages/LoginPage",
+                  params: {
+                    data1: '上一页的数据'
+                  }
+                })
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
             // Blank()
@@ -60,20 +63,45 @@ export struct Zujian1 {
                 } })
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
-            Text('Lottie组件2')
+            Text('大图预览组件')
               .fontSize($r('app.float.small_font_size'))
               .fontColor('#000000')
               .margin(10)
               .fontWeight(FontWeight.Bold)
               .onClick(() => {
-                router.pushUrl({ url: "@bundle:com.example.harmonyapp1/libraryindex3/ets/pages/PageLottie2", params: {
-                  data1: '上一页的数据'
-                } })
+                router.pushUrl({
+                  url: "@bundle:com.example.harmonyapp1/librarycommon1/ets/common/largeImage/Index",
+                  params: {
+                    data1: '上一页的数据'
+                  }
+                })
                 // logger.info('showData1:' + router.getParams()['data1']);
               })
+            Text('音视频组件')
+              .fontSize($r('app.float.small_font_size'))
+              .fontColor('#000000')
+              .margin(10)
+              .fontWeight(FontWeight.Bold)
+              .onClick(() => {
+                router.pushUrl({
+                  url: "@bundle:com.example.harmonyapp1/librarycommon1/ets/common/player/PagePlayerIndex",
+                  params: {
+                    data1: '上一页的数据'
+                  }
+                })
+                // logger.info('showData1:' + router.getParams()['data1']);
+              })
+
+
+
           }.height('100%').width('50%').alignItems(HorizontalAlign.Start)
 
           Column() {
+
+
+
+
+
 
           }.height('100%').width('50%').alignItems(HorizontalAlign.Start)
         }.height('100%').width('100%').alignItems(VerticalAlign.Top)

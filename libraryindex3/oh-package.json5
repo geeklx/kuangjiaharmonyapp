@@ -8,6 +8,6 @@
   "version": "1.0.0",
   "dependencies": {
     "librarycommon1": "file:./../librarycommon1",
-    "@ohos/lottie": "2.0.0"
+//    "@ohos/lottie": "2.0.0"
   }
 }

@@ -1,6 +1,17 @@
 {
   "src": [
     "pages/Index",
-    "pages/Msy"
+    "pages/Msy",
+    "common/indexcomponents/pages/LoginPage",
+    "common/indexcomponents/pages/MainPage",
+    "common/largeImage/Index",
+    "common/largeImage/AdvancedEventHandling",
+    "common/largeImage/BasicFeatures",
+    "common/largeImage/Configuration",
+    "common/largeImage/EventHandling",
+    "common/largeImage/ImageDisplay",
+    "common/player/PlayerIndex1",
+    "common/player/PlayerIndex2",
+    "common/player/PagePlayerIndex"
   ]
 }

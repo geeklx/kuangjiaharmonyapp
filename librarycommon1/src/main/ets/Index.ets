@@ -41,9 +41,22 @@ export { Lotties2 } from "./common/lotties/Lotties2"
 export { MarqueeView } from './common/marquee/view/Marquee';
 
 
-export { LoginPage } from './common/indexcomponents/pages/LoginPage';
 
-export { MainPage } from './common/indexcomponents/pages/MainPage';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

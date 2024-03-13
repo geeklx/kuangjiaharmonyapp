@@ -10,7 +10,7 @@ struct PageLottie1 {
   @State message: string = 'Hello World'
   private renderingSettings: RenderingContextSettings = new RenderingContextSettings(true);
   private renderingContext: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.renderingSettings);
-  private animateName: string = 'data3';
+  private animateName: string = 'data1';
   private animateItem: AnimationItem | null = null;
   @State canvasTitle: Resource | undefined = undefined;
   private path: string = "common/lotties/data.json"
@@ -18,8 +18,8 @@ struct PageLottie1 {
 
   async aboutToAppear() {
     let resStr = new util.TextDecoder('utf-8', { ignoreBOM: true });
-    let context = getContext(this).createModuleContext('libraryindex3') as common.UIAbilityContext
-    context.resourceManager.getRawFile('data3.json', (err: Error, data: Uint8Array) => {
+    let context = getContext(this).createModuleContext('librarycommon1') as common.UIAbilityContext
+    context.resourceManager.getRawFile('data1.json', (err: Error, data: Uint8Array) => {
       if (data === null || data === undefined || data.buffer === undefined) {
         return;
       }

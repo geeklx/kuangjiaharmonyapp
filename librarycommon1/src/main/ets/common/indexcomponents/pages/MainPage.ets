@@ -9,7 +9,7 @@ import { logger } from './../../Logger'
 
 @Entry
 @Component
-export struct MainPage {
+struct MainPage {
   @State message: string = 'Hello World'
   @State currentIndex: number = CommonConstants.HOME_TAB_INDEX
   private tabsController: TabsController = new TabsController()

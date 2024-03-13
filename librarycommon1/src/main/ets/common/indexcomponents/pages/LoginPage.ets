@@ -7,7 +7,7 @@ import promptAction from '@ohos.promptAction';
 
 @Entry
 @Component
-export struct LoginPage {
+struct LoginPage {
   @State message: string = 'Hello World'
   @State account: string = '';
   @State password: string = '';

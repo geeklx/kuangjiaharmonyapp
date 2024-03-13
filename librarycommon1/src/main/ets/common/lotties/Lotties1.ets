@@ -1,5 +1,6 @@
 import lottie, { AnimationItem } from '@ohos/lottie';
 
+
 export class Lotties1 {
   public renderingSettings: RenderingContextSettings = new RenderingContextSettings(true);
   public renderingContext: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.renderingSettings);
