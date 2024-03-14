@@ -46,6 +46,7 @@ struct AdvertisingPage {
     window.getLastWindow(getContext(this), (err, w) => {
       w.setWindowLayoutFullScreen(false)
       w.setWindowSystemBarEnable(['status'])
+
     })
     //
     router.clear();
