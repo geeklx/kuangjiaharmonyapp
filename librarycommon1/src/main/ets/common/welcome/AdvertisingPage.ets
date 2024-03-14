@@ -28,9 +28,9 @@ struct AdvertisingPage {
 
   onPageShow() {
     //
-    window.getLastWindow(getContext(this), (err, w) => {
-      w.setWindowLayoutFullScreen(false)
-    })
+    // window.getLastWindow(getContext(this), (err, w) => {
+    //   w.setWindowLayoutFullScreen(true)
+    // })
     //
     this.timeId = setInterval(() => {
       if (this.countDownSeconds === 0) {
@@ -44,7 +44,8 @@ struct AdvertisingPage {
   onPageHide() {
     //
     window.getLastWindow(getContext(this), (err, w) => {
-      w.setWindowLayoutFullScreen(true)
+      w.setWindowLayoutFullScreen(false)
+      w.setWindowSystemBarEnable(['status'])
     })
     //
     router.clear();

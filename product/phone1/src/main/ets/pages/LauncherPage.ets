@@ -74,9 +74,9 @@ struct LauncherPage {
 
   onPageHide() {
     //
-    window.getLastWindow(getContext(this), (err, w) => {
-      w.setWindowLayoutFullScreen(true)
-    })
+    // window.getLastWindow(getContext(this), (err, w) => {
+    //   w.setWindowLayoutFullScreen(true)
+    // })
     //
     if (this.isJumpToAdvertising) {
       router.clear();
@@ -89,7 +89,8 @@ struct LauncherPage {
   onPageShow() {
     //
     window.getLastWindow(getContext(this), (err, w) => {
-      w.setWindowLayoutFullScreen(false)
+      w.setWindowLayoutFullScreen(true)
+      w.setWindowSystemBarEnable(['navigation'])
     })
     //
     this.context = getContext(this) as common.UIAbilityContext;
