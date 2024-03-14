@@ -24,13 +24,6 @@
       "name": "marquee_bg_color2",
       "value": "#F3F4F7"
     },
-
-
-
-
-
-
-
     {
       "name": "white",
       "value": "#FFFFFF"
@@ -94,40 +87,61 @@
     {
       "name": "setting_button_fontColor",
       "value": "#FA2A2D"
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+      "name": "colorFE5756",
+      "value": "#FE5756"
+    },
+    {
+      "name": "colorF8F8F8",
+      "value": "#F8F8F8"
+    },
+    {
+      "name": "colorF1F3F5",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "color0A59F7",
+      "value": "#0A59F7"
+    },
+    {
+      "name": "colorCCDFFF",
+      "value": "#CCDFFF"
+    },
+    {
+      "name": "colorF3F4F7",
+      "value": "#F3F4F7"
+    },
+
+
+
+
+    {
+      "name": "color007DFF",
+      "value": "#007DFF"
+    },
+    {
+      "name": "color182431",
+      "value": "#182431"
+    },
+    {
+      "name": "color33000000",
+      "value": "#33000000"
+    },
+    {
+      "name": "colorF5F5F5",
+      "value": "#F5F5F5"
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -12,6 +12,8 @@
     "common/largeImage/ImageDisplay",
     "common/player/PlayerIndex1",
     "common/player/PlayerIndex2",
-    "common/player/PagePlayerIndex"
+    "common/player/PagePlayerIndex",
+    "common/welcome/PrivacyPage",
+    "common/welcome/AdvertisingPage"
   ]
 }

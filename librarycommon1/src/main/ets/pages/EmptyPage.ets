@@ -1,7 +1,6 @@
 
 import { ResManager } from '../constants/ResManager';
 
-@Entry
 @Preview
 @Component
 export struct EmptyPage {

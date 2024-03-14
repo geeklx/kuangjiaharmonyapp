@@ -14,6 +14,6 @@ export class ResManager {
 
   static getDefaultBackground(): string {
     // return $r('app.color.default_background');
-    return "#F8F8F8"
+    return "#ffffff"
   }
 }

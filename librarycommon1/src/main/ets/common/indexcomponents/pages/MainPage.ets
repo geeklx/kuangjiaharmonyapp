@@ -5,7 +5,7 @@ import CommonConstants from '../constants/CommonConstants'
 import Home from '../view/Home'
 import Setting from '../view/Setting'
 import router from '@ohos.router'
-import { logger } from './../../Logger'
+import { logger } from '../../../Logger'
 
 @Entry
 @Component

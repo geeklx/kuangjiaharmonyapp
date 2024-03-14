@@ -1,7 +1,7 @@
 export { add } from "./utils/Calc"
-export { ResUtils } from "./common/ResUtils"
-
-export { logger } from './common/Logger';
+export { ResUtils } from "./ResUtils"
+export { logger } from './Logger';
+export { GlobalContext } from './GlobalContext';
 
 export { FunctionDescription } from './common/FunctionDescription';
 
@@ -40,6 +40,8 @@ export { Lotties1 } from "./common/lotties/Lotties1"
 export { Lotties2 } from "./common/lotties/Lotties2"
 
 export { MarqueeView } from './common/marquee/view/Marquee';
+
+export { CustomDialogComponent } from './common/welcome/CustomDialogComponent';
 
 
 

@@ -2,6 +2,7 @@
   "src": [
     "pages/Index",
     "pages/LaunchPage",
-    "pages/MainPage"
+    "pages/MainPage",
+    "pages/LauncherPage"
   ]
 }

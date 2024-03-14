@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { logger } from './../Logger'
+import { logger } from '../../Logger'
 
 const TAG: string = 'PlayerIndex2'
 const video2: string = 'http://cdn2.cdn.haier-jiuzhidao.com/1.mp4'

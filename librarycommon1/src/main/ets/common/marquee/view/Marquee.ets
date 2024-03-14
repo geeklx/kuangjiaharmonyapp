@@ -1,5 +1,5 @@
 import { FunctionDescription } from '../../FunctionDescription';
-import { logger } from '../../logger';
+import { logger } from '../../../logger';
 import { TripDataType } from '../model/DataType';
 import Constants from '../model/Constants';
 import { TripDataSource } from '../model/DataSource';

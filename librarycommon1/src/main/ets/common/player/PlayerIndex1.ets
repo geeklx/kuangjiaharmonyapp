@@ -15,7 +15,7 @@
 
 import fileIO from '@ohos.fileio'
 import media from '@ohos.multimedia.media'
-import { logger } from './../Logger'
+import { logger } from '../../Logger'
 import common from '@ohos.app.ability.common'
 
 const TAG: string = 'PlayerIndex1'

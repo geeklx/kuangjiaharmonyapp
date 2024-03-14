@@ -427,24 +427,112 @@
     {
       "name": "setting_settingCell_right",
       "value": "22vp"
+    },
+
+
+
+
+    {
+      "name": "size_opacity_04",
+      "value": "0.4"
+    },
+    {
+      "name": "size_opacity_06",
+      "value": "0.6"
+    },
+
+    {
+      "name": "size_left_24",
+      "value": "24"
+    },
+    {
+      "name": "size_right_24",
+      "value": "24"
+    },
+    {
+      "name": "size_bottom_24",
+      "value": "24"
+    },
+    {
+      "name": "size_bottom_10",
+      "value": "10"
+    },
+    {
+      "name": "size_top_10",
+      "value": "10"
+    },
+    {
+      "name": "size_top_12",
+      "value": "12"
+    },
+    {
+      "name": "size_fp_12",
+      "value": "12fp"
+    },
+    {
+      "name": "size_fp_16",
+      "value": "16fp"
+    },
+    {
+      "name": "size_fp_18",
+      "value": "18fp"
+    },
+    {
+      "name": "size_fp_20",
+      "value": "20fp"
+    },
+    {
+      "name": "size_fp_26",
+      "value": "26fp"
+    },
+    {
+      "name": "size_vp_1",
+      "value": "1vp"
+    },
+    {
+      "name": "size_vp_8",
+      "value": "8vp"
+    },
+    {
+      "name": "size_vp_12",
+      "value": "12vp"
+    },
+    {
+      "name": "size_vp_18",
+      "value": "18vp"
+    },
+    {
+      "name": "size_vp_24",
+      "value": "24vp"
+    },
+    {
+      "name": "size_vp_30",
+      "value": "30vp"
+    },
+    {
+      "name": "size_vp_32",
+      "value": "32vp"
+    },
+    {
+      "name": "size_vp_35",
+      "value": "35vp"
+    },
+    {
+      "name": "size_vp_54",
+      "value": "54vp"
+    },
+    {
+      "name": "size_vp_105",
+      "value": "105vp"
+    },
+    {
+      "name": "size_vp_119",
+      "value": "119vp"
+    },
+    {
+      "name": "size_vp_260",
+      "value": "260vp"
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

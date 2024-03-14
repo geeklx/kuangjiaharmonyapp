@@ -1,5 +1,5 @@
 import common from '@ohos.app.ability.common'
-import { logger } from './../Logger'
+import { logger } from '../../Logger'
 import router from '@ohos.router'
 
 const TAG: string = 'PagePlayerIndex'
@@ -19,6 +19,7 @@ struct PagePlayerIndex {
 
   aboutToAppear() {
     this.context = getContext(this) as common.UIAbilityContext
+    logger.info('PagePlayerIndex', router.getParams()['data1']);
   }
 
   build() {
